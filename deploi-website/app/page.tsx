@@ -45,12 +45,12 @@ export default function Home() {
       {/* Mobile Layout */}
       <div className="md:hidden flex flex-col min-h-screen">
         {/* Carousel Above */}
-        <div className="pt-20">
+        <div className="pt-20 pb-12">
           <ArrowFrameCarousel onClick={toggleTheme} isLightMode={isLightMode} />
         </div>
 
         {/* Centered Content */}
-        <div className="flex-1 flex flex-col items-center justify-center px-4 -mt-8">
+        <div className="flex-1 flex flex-col items-center justify-center px-4">
           <div className="text-center max-w-xl">
             <h1 className="font-light text-4xl sm:text-5xl leading-tight mb-4 md:mb-6">
               <span className="inline-block animate-word-1">Tailored</span>
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         {/* Carousel Below */}
-        <div className="-mt-8 pb-8">
+        <div className="pt-12 pb-8">
           <ArrowFrameCarousel onClick={toggleTheme} isLightMode={isLightMode} />
         </div>
       </div>
