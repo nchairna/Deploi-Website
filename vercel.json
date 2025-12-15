@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd deploi-website && npm run build",
+  "outputDirectory": "deploi-website/.next",
+  "installCommand": "cd deploi-website && npm install",
+  "framework": "nextjs"
+}
+
